@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0;}
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+body{
+    color: black;
+    font-weight: bold;
+    font-family: '맑은 고딕','돋움',arial,Sans-Serif;
+}
+#button {
+    width: 100px;
+    color: white;
+    background-color:#ffffff;
+    text-align: center;
+    height: 60px;
+    padding: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+#button p {
+    font-size: 20px;
+    background-color: hotpink;
+    margin-top: 5px;
+}
+#botton a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+#botton a:hover {
+    text-decoration: underline;
+    text-align: center;
+    background-color: forestgreen;
+    color: black;
+}
+#botton img {
+    background-size: cover;
+    width: 80px;
+}
+#nav {
+    padding-left: 60px;
+}
+#nav li {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    width: 80px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 55px;
+    text-align: center;
+}
+a {text-decoration: none;}
+a:hover {color: black;}
+li:hover:nth-child(odd)
+{background-color: lightgreen;}
+li:hover:nth-child(even)
+{background-color: #0080ff;}
+
+.active {
+    color: crimson;
+}
